@@ -55,4 +55,3 @@ print(output_file_path)
 # save file and close
  with open(output_file_path, "w", encoding="utf-8") as txt:
             write_txt(transcribe_result["segments"], file=txt)
-
