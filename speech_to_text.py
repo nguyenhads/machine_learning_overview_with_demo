@@ -4,10 +4,9 @@ Author: Nguyen Thai Ha
 About:
   * This program demos the using of Whisper OpenAI to transcribe the speech to text
 
-Original file is located at
-    https://colab.research.google.com/drive/1vQ3jrZA4zXyK5FSboMQZCOALf43_qPq2
 """
 
+# install Whisper
 # pip install git+https://github.com/openai/whisper.git
 
 # importing libs
@@ -28,7 +27,7 @@ def transcribe_audio(input_audio, model_type, device):
 # transcribing
 model_type = "large"
 device = "cuda" if torch.cuda.is_available() else "cpu"
-input_audio_path = "/content/sample_data/20221208ドローン案件社内MTG.m4a"
+input_audio_path = "/content/sample_data/example.m4a"
 start_time = time.time()
 print("Transcribing ... ")
 transcribe_result = transcribe_audio(input_audio_path, model_type=model_type, device=device)
