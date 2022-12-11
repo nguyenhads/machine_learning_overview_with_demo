@@ -1,7 +1,11 @@
 # Tổng quan về Machine Learning
 
 ## Objective
-* Nắm được hình ảnh tổng quan về lĩnh vực ML và một số ứng dụng thực tế của ML trong cuộc s
+* Nắm được hình ảnh tổng quan về lĩnh vực ML và một số ứng dụng thực tế của ML trong cuộc sống
+* Demo ứng dụng thực tiễn của ML trong lĩnh vực xử lý ngôn ngữ tự nhiên (NLP) giúp ích cho công việc hàng ngày
+    * Chi tiết*
+        * Chuyển những đoạn hội thoại ghi âm tiếng Nhật thành text
+        * Mô hình sử dụng: [Whisper](https://github.com/openai/whisper) (OpenAI)
 
 ## I. Machine Learning (ML) là gì ?
 
@@ -22,7 +26,7 @@
 
 
 <p align="center" width="100%">
-    <img width="50%" src="./images/phan-loai-machine-learning-768x550.jpg"> 
+    <img width="50%" src="https://blog.luyencode.net/wp-content/uploads/2018/09/phan-loai-machine-learning-768x550.jpg"> 
 </p>
 <div align="center">
   Phân loại thuật toán ML
